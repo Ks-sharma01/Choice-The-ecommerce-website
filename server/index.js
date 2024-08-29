@@ -10,8 +10,6 @@ const key_secret = process.env.key_secret
 const instance = new Razorpay({
           key_id,
           key_secret
-          // key_id: "rzp_test_xM02CBfMvhikdX",
-          // key_secret: "hiJSS7f5WF6wFWQ1Q7SVCh26"
 })
 
 app.use(express.urlencoded({extended: false}))
